@@ -77,7 +77,7 @@ export default function Home() {
         <section className="relative">
           <div className="absolute inset-0 z-0">
             <Image
-              src="./hero_banner.jpg?height=800&width=1920"
+              src="/hero_banner.jpg?height=800&width=1920"
               alt="Modern home renovation"
               fill
               className="object-cover brightness-[0.6]"
@@ -124,19 +124,19 @@ export default function Home() {
                   title: "Kitchen Renovations",
                   description:
                     "Transform your kitchen into a stunning, functional space with premium materials and expert craftsmanship.",
-                  image: "./kitchen.jpg?height=300&width=400",
+                  image: "/kitchen.jpg?height=300&width=400",
                 },
                 {
                   title: "Bathroom Remodeling",
                   description:
                     "Create a luxurious bathroom retreat with modern fixtures, beautiful tilework, and elegant finishes.",
-                  image: "./bathroom.jpg?height=300&width=400",
+                  image: "/bathroom.jpg?height=300&width=400",
                 },
                 {
                   title: "Basement Finishing",
                   description:
                     "Convert your unused basement into valuable living space, from home theaters to guest suites.",
-                  image: "./basement.jpg?height=300&width=400",
+                  image: "/basement.jpg?height=300&width=400",
                 },
               ].map((service, index) => (
                 <div
