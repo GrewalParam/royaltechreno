@@ -77,9 +77,11 @@ export default function Home() {
         <section className="relative">
           <div className="absolute inset-0 z-0">
             <Image
-              src="/hero_banner.jpg?height=800&width=1920"
+              src="/hero_banner.jpg"
+              width={1920}
+              height={800}
               alt="Modern home renovation"
-              fill
+              //fill
               className="object-cover brightness-[0.6]"
               priority
             />
